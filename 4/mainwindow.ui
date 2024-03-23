@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindows</class>
+ <widget class="QMainWindow" name="MainWindows">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>克己</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>501</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>3</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>120</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>120</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>60</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>502</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>添加</string>
+    </property>
+    <addaction name="addrows"/>
+    <addaction name="addcolunms"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>删除</string>
+    </property>
+    <addaction name="delete1"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>加载</string>
+    </property>
+    <addaction name="load"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>日记</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuclearContents">
+    <property name="title">
+     <string>ClearContents</string>
+    </property>
+    <addaction name="Clear"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menuclearContents"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="addrows">
+   <property name="text">
+    <string>addrows</string>
+   </property>
+  </action>
+  <action name="delete1">
+   <property name="text">
+    <string>deleterows</string>
+   </property>
+  </action>
+  <action name="load">
+   <property name="text">
+    <string>load</string>
+   </property>
+  </action>
+  <action name="Clear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="addcolunms">
+   <property name="text">
+    <string>addcolunms</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
